@@ -1,0 +1,90 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.marketingAgency {
+     position: relative;
+    .marketingAgency__cont {
+        width: 1000px;
+        margin: 0 auto;
+        margin: 100px auto 200px;
+       
+
+
+        .marketingAgency__title {
+            color: $white;
+            font-size: 4rem;
+            line-height: 70.4px;
+            font-weight: 400;
+            letter-spacing: .09;
+
+            span {
+                color: $violet;
+                background-image: $gradient-сrimson;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% auto;
+                animation: gradientAnimation 5s linear infinite;
+            }
+
+            @keyframes gradientAnimation {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+            
+        }
+
+       
+    }
+     .first__glassShard {
+            position: absolute;
+            left: 200px;
+            top: -60px;
+            width: 30px;
+            height: 30px;
+            background-color: $violet;
+        }
+
+        .second__glassShard {
+            position: absolute;
+            left: 770px;
+            top: 14px;
+            width: 50px;
+            height: 50px;
+            background-color: $violet;
+        }
+
+        .third__glassShard {
+            position: absolute;
+            right: 450px;
+            bottom: 0;
+            width: 80px;
+            height: 80px;
+            background-color: $violet;
+        }
+
+        .fourth__glassShard {
+            position: absolute;
+            right: 350px;
+            top: -70px;
+            width: 40px;
+            height: 40px;
+            background-color: $violet;
+        }
+
+        .left__blueoval {
+            position: absolute;
+            background-color: rgba(0, 0, 255, 0.181);
+            height: 600px;
+            width: 600px;
+            border-radius: 50%;
+            top: -200px;
+            left: -200px;
+        }
+}

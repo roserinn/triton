@@ -1,0 +1,40 @@
+
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ variables ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ 
+
+// z-index system 
+$ui-index-1: 1; //for crawling elements in the total flow
+$ui-index-2: 2; //for crawling elements in the total flow
+$ui-index-3: 3; //for masks and shadows
+$ui-index-4: 4; //sidebars 
+$ui-index-5: 5; //for modal windows
+$ui-index-6: 6; //for modal windows
+
+//colors 
+$black: #00031B;
+$blue: #232DAD;
+$purple: #77247A;
+$white: #FBFBFB;
+$violet: #AEB4FC;
+
+//gradients
+$gradient-purple: linear-gradient(to right, #6C01CB, #570B64);
+$gradient-сrimson: linear-gradient(to right, #570B64, #D682ED);
+$gradient-violet: linear-gradient(to right, #222CAD, #6B01C9);
+$gradient-pink: linear-gradient(to right, #DC8BEF, #D43EA9);
+$gradient-lilac: linear-gradient(to right, #E295F0, #8402D9);
+$gradient-magenta: linear-gradient(to right, #242C6A, #CE5EDF);
+
+
+// ----------------------------------------------------------------------------------------------------------------------
+
+// other
+
+
+// ----------------------------------------------------------------------------------------------------------------------
+
+// @media  
+
+$ui-mobile: '800px';
+$ui-tablet: '1000px';
+$ui-laptop: '1200px';
+$ui-desktop: '1400px';

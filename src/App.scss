@@ -1,0 +1,11 @@
+@import './styles/mixins';
+@import './styles/variables';
+@import './styles/reset';
+@import '../src/assets/fonts/font.scss';
+
+
+body {
+    background-color: $black;
+    color: $white;
+    font-family: "Poppins", sans-serif;
+}

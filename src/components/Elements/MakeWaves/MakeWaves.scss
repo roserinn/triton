@@ -1,0 +1,31 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.makeWaves {
+    background-image: url(../../../assets/img/bg/waves__main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .makeWaves__cont {
+        width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:200px 0 280px;
+
+
+        .makeWaves__title {
+            font-size: 5.5rem;
+            text-align: center;
+            font-weight: 600;
+            line-height: 100px;
+            margin-bottom: 150px;
+        }
+
+        .makeWaves__btn {
+      @include default-btn(220px, 15px);
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import './variables.scss'; 
+
+@mixin default-btn($width, $padding) {
+    background: $gradient-lilac;
+    border-radius: 50px;
+    color: $white;
+    font-size: 1rem;
+    width: $width;
+    padding: $padding;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
